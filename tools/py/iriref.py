@@ -31,4 +31,4 @@ class iriref(str):
         return self
 
     def __repr__(self):
-        return u'I(' + str(self) + ')'
+        return u'I(\'' + str(self) + '\')'
